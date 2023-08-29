@@ -1,0 +1,109 @@
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+    margin: 0%;
+    background-image: url(images/bg-pattern-top.svg),url(images/bg-pattern-bottom.svg);
+    background-color: hsl(185, 75%, 39%);
+    background-repeat: no-repeat,no-repeat;
+    background-position: right 50vw top -60vh, left 60vw top 50vh ;
+    background-size: auto,auto;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+}
+.container{
+    border-radius: 15px;
+    width:395px;
+    height: auto;
+    background-color: white;
+}
+#profile_background_image{
+    position: relative;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+#profile_pic{
+    background-color: white;
+    transform: translate(150px,-55px);
+    border-radius: 50%;
+    padding: 2px;
+    border: solid;
+    border-color: white;
+}
+#name_of_profile{
+    color: hsl(229, 23%, 23%);
+    display: flex;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    justify-content: center;
+    margin-top: -40px;
+    margin-left: -38px;
+}
+#age{
+    font-weight: 100;
+    color: hsl(227, 10%, 46%);
+    margin-left:10px;
+    margin-right: -50px;
+}
+#Londen{
+    color:  hsl(227, 10%, 46%);
+    padding-top: 10px;
+    margin-left:17px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+hr{
+    border-top: thin hsl(227, 10%, 46%);
+}
+#n80k, #n803k, #n14K{
+    margin-top: 15px;
+    text-align: center;
+    display: inline-flex;
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: 65px;
+    width: 50px;
+    height: 30px;
+    color: hsl(229, 23%, 23%);
+}
+#Followers{
+    margin-top: -15vh;
+    text-align: center;
+    display: inline-flex;
+    font-weight: 500;
+    font-size: 12px;
+    margin-left: 54px;
+    width: 50px;
+    height: 50px;
+    color:hsl(227, 10%, 46%);
+}
+#Likes{
+    margin-top: -15vh;
+    text-align: center;
+    display: inline-flex;
+    font-weight: 500;
+    font-size: 12px;
+    margin-left: 85px;
+    width: 50px;
+    height: 50px;
+    color:hsl(227, 10%, 46%);
+}
+#Photos{
+    margin-top: -15vh;
+    text-align: center;
+    display: inline-flex;
+    font-weight: 500;
+    font-size: 12px;
+    margin-left: 56px;
+    width: 50px;
+    height: 50px;
+    color:hsl(227, 10%, 46%);
+}
+@media only screen and (max-width: 375px){
+    body{
+        position: absolute;
+    }
+}
